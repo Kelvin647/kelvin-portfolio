@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kelvin Creative Portfolio - Showcasing creative projects, skills, and services.">
+    <title>Kelvin's Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+</head>
+<body>
+    <!-- Navigation Bar with Dropdown -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#about" class="dropbtn">About Me</a>
+                    <div class="dropdown-content">
+                        <a href="#biography">Biography</a>
+                        <a href="#skills">Skills & Services</a>
+                        <a href="#experience">Experience</a>
+                    </div>
+                </li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#ecommerce">E-Commerce</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Kelvin's Portfolio</h1>
+        <p>Bringing Ideas to Life</p>
+        <div class="banner">
+            <img src="kelvin-at-work.jpg" alt="Kelvin at Work">
+        </div>
+        <a href="#about" class="button">Learn More About Me</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div id="biography">
+            <h3>Biography</h3>
+            <p>I’m Kelvin, a computer science graduate with a passion for design and creativity.</p>
+        </div>
+        <div id="skills">
+            <h3>Skills & Services</h3>
+            <ul>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>Content Creation</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <p>Project 1 - UI/UX Design</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Digital Product">
+            <p>Digital Product 1</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- E-Commerce Section -->
+    <section id="ecommerce">
+        <h2>E-Commerce</h2>
+        <p>Buy digital products from me</p>
+        <button class="buy-now">Buy Now</button>
+    </section>
+
+    <!-- Footer with External Links -->
+    <footer>
+        <p>&copy; 2024 Kelvin's Creative Portfolio</p>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </footer>
+</body>
+</html>
